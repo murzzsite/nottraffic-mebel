@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Политика обработки персональных данных — Not Just Traffic</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .legal { padding: 64px 0 96px; max-width: 780px; }
+  .legal h1 { font-size: 30px; margin-bottom: 24px; }
+  .legal h2 { font-size: 19px; margin: 32px 0 12px; }
+  .legal p, .legal li { color: var(--clr-text-soft); font-size: 15px; margin-bottom: 10px; }
+  .legal ul { padding-left: 20px; list-style: disc; }
+</style>
+</head>
+<body>
+<header class="header" id="header">
+  <div class="header__inner container">
+    <a href="index.html" class="logo">Not Just <span class="logo__accent">Traffic</span></a>
+    <div class="header__actions">
+      <a href="index.html" class="btn btn--ghost">На главную</a>
+    </div>
+  </div>
+</header>
+<main class="container legal">
+  <h1>Политика обработки персональных данных</h1>
+  <p>Настоящая политика определяет порядок обработки персональных данных пользователей сайта Not Just Traffic.</p>
+  <h2>1. Общие положения</h2>
+  <p>Отправляя данные через форму на сайте, пользователь даёт согласие на обработку персональных данных (имя, телефон, название компании) в целях связи по вопросу оказания услуг.</p>
+  <h2>2. Цели обработки</h2>
+  <ul>
+    <li>Связь с пользователем для консультации по услугам агентства</li>
+    <li>Подготовка коммерческого предложения и расчёта стоимости</li>
+  </ul>
+  <h2>3. Хранение данных</h2>
+  <p>Данные передаются напрямую в мессенджер представителя агентства и не передаются третьим лицам, за исключением случаев, предусмотренных законодательством РФ.</p>
+  <h2>4. Права пользователя</h2>
+  <p>Пользователь вправе запросить удаление своих данных, обратившись по контактам, указанным на сайте.</p>
+</main>
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Not Just Traffic. Все права защищены.</span>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
