@@ -1,0 +1,45 @@
+{
+  "siteName": "Не только трафик",
+  "siteUrl": "https://notjusttraffic.ru",
+  "lang": "ru",
+  "repo": "murzzsite/nottraffic-mebel",
+  "ref": "FJFJB5C3RP",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Практические статьи о продвижении мебельных компаний: реклама, заявки, репутация на картах",
+  "homeTitle": "Полезные статьи для владельцев мебельного бизнеса",
+  "author": {
+    "name": "Не только трафик",
+    "jobTitle": "",
+    "type": "Organization"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Оставьте заявку — разберём вашу ситуацию и подскажем следующий шаг.",
+  "ctaButton": "Оставить заявку",
+  "ctaUrl": "/#form",
+  "disclaimer": "",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/",
+    "/prodvizhenie-vk.html",
+    "/yandeks-direkt.html",
+    "/serm-yandeks-karty-2gis.html",
+    "/obrabotka-zayavok.html",
+    "/privacy.html",
+    "/consent.html"
+  ],
+  "indexNowKey": "8173e2bfbc09c21bc61301e42099f955",
+  "previewSecret": "7d4f88c03d77cf78",
+  "theme": {
+    "accent": "var(--clr-accent)",
+    "accent-soft": "var(--clr-accent-soft)",
+    "bg": "var(--clr-bg)",
+    "surface": "var(--clr-surface)",
+    "ink": "var(--clr-ink)",
+    "text": "var(--clr-text)",
+    "soft": "var(--clr-text-soft)",
+    "line": "var(--clr-border)"
+  }
+}

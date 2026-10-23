@@ -318,7 +318,7 @@ section h2 { font-size: 32px; letter-spacing: -0.01em; margin-bottom: 16px; }
 /* Cookie banner */
 .cookie { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 120; max-width: 720px; margin: 0 auto; background: var(--clr-surface); border: 1px solid var(--clr-border); border-radius: 16px; box-shadow: 0 24px 48px -20px rgba(23,25,35,0.35); padding: 16px 20px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
 .cookie[hidden] { display: none; }
-.cookie p { flex: 1 1 320px; font-size: 13.5px; color: var(--clr-text-soft); }
+.cookie p { flex: 1 1 240px; font-size: 13.5px; color: var(--clr-text-soft); }
 .cookie a { color: var(--clr-accent); font-weight: 600; }
 .cookie__actions { display: flex; gap: 8px; flex-wrap: wrap; }
 .cookie .btn { padding: 9px 16px; font-size: 14px; }
@@ -360,3 +360,7 @@ mark.ph { background: #fff3c4; color: #5c4400; padding: 1px 6px; border-radius: 
 .legal p, .legal li { color: var(--clr-text-soft); font-size: 15.5px; margin-bottom: 10px; }
 .legal ul { padding-left: 22px; list-style: disc; }
 .legal a { color: var(--clr-accent); font-weight: 600; }
+
+/* Footer responsive */
+@media (max-width: 900px) { .footer__inner { grid-template-columns: 1fr 1fr; gap: 28px; } .footer__brand { grid-column: 1 / -1; } }
+@media (max-width: 560px) { .footer__inner { grid-template-columns: 1fr; } }

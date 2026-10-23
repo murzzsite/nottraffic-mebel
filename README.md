@@ -38,3 +38,21 @@
 ## Lead-relay
 - ref_code: `FJFJB5C3RP`
 - deep_link: https://t.me/formsfeedback_bot?start=FJFJB5C3RP
+
+## Пакет SEO и материалов (23.10.2026)
+
+Этап 1 (публичный сайт): canonical, Open Graph, JSON-LD, sitemap.xml, robots.txt, 4 страницы услуг, политика конфиденциальности и согласие, плашка cookie, согласие в форме, хук Яндекс Метрики (`YM_ID` в script.js, пока 0), блог (`.blog-kit`, `articles/`, `blog.config.json`, GitHub Action).
+
+Этап 2 (noindex, на домене клиента): raspakovka.html, recommendations.html, cards.html, reviews.html, channels.html, report/, плюс scripts/presentation/outreach/materials.
+
+### Что нужно подставить
+- Реквизиты оператора и почту для обращений в privacy.html и consent.html (жёлтые плашки `[ЗАМЕНИТЬ]`).
+- Номер счётчика в `YM_ID` (script.js) после создания счётчика в Яндекс Метрике; мета-теги подтверждения Вебмастера и Search Console в `<head>` index.html.
+- Адрес, телефон, график для карточек на картах (cards.html).
+- Ссылку на отзыв в карточке для QR (reviews.html).
+- Список 30–40 каналов в channels.html: нужен доступ к Telemetr или TGStat.
+
+### Допущения
+- Определение «квалифицированной заявки» (разговор, подтверждённая задача, запись на замер) нужно согласовать с клиентом и закрепить в договоре.
+- Финансовая модель в raspakovka.html использует условные 40 квалифицированных заявок в месяц и распределение оборота по каналам.
+- Кейса мебельного клиента в брифе нет: в Распаковке стоит метка «нужен факт от вас».
