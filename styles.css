@@ -8,6 +8,8 @@
   --clr-accent: #4338ca;
   --clr-accent-soft: #eef0fd;
   --clr-accent-dark: #322a99;
+  --clr-ink: var(--clr-text);
+  --clr-ink-soft: var(--clr-text-soft);
   --font-head: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
   --radius: 16px;
@@ -307,3 +309,54 @@ section h2 { font-size: 32px; letter-spacing: -0.01em; margin-bottom: 16px; }
 @media (max-width: 380px) {
   .logo__accent { display: none; }
 }
+
+/* Consent checkbox */
+.form__consent { flex-direction: row !important; align-items: flex-start; gap: 10px !important; font-weight: 400 !important; font-size: 13px !important; line-height: 1.45; color: var(--clr-text-soft); }
+.form__consent input { margin-top: 2px; width: 18px; height: 18px; flex: none; accent-color: var(--clr-accent); padding: 0; }
+.form__consent a { color: var(--clr-accent); font-weight: 600; }
+
+/* Cookie banner */
+.cookie { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 120; max-width: 720px; margin: 0 auto; background: var(--clr-surface); border: 1px solid var(--clr-border); border-radius: 16px; box-shadow: 0 24px 48px -20px rgba(23,25,35,0.35); padding: 16px 20px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.cookie[hidden] { display: none; }
+.cookie p { flex: 1 1 320px; font-size: 13.5px; color: var(--clr-text-soft); }
+.cookie a { color: var(--clr-accent); font-weight: 600; }
+.cookie__actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.cookie .btn { padding: 9px 16px; font-size: 14px; }
+
+/* Public inner pages (services, legal) */
+.breadcrumbs { font-size: 13.5px; color: var(--clr-text-soft); padding: 28px 0 0; }
+.breadcrumbs a { color: var(--clr-accent); font-weight: 600; }
+.page-hero { padding: 24px 0 48px; }
+.page-hero h1 { font-size: 40px; letter-spacing: -0.02em; max-width: 860px; margin-bottom: 18px; }
+.page-hero__lead { font-size: 18px; color: var(--clr-text-soft); max-width: 760px; margin-bottom: 28px; }
+.page-hero__cta { display: flex; gap: 14px; flex-wrap: wrap; }
+.page-section { padding: 56px 0; border-top: 1px solid var(--clr-border); }
+.page-section h2 { font-size: 28px; margin-bottom: 16px; letter-spacing: -0.01em; }
+.page-section > .container > p, .prose p { color: var(--clr-text-soft); max-width: 780px; margin-bottom: 14px; }
+.prose ul { margin: 8px 0 14px 20px; color: var(--clr-text-soft); max-width: 780px; }
+.prose li { margin-bottom: 8px; }
+.prose li::marker { color: var(--clr-accent); }
+.prose h3 { font-size: 19px; margin: 24px 0 10px; }
+.prose a { color: var(--clr-accent); font-weight: 600; }
+.fact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 20px 0; }
+.fact { background: var(--clr-surface); border: 1px solid var(--clr-border); border-radius: var(--radius); padding: 22px; }
+.fact h3 { font-size: 17px; margin-bottom: 8px; }
+.fact p { font-size: 14.5px; color: var(--clr-text-soft); margin: 0; }
+.price-box { background: var(--clr-accent-soft); border: 1px solid var(--clr-border); border-radius: var(--radius); padding: 24px 28px; max-width: 780px; }
+.price-box b { font-family: var(--font-head); font-size: 26px; color: var(--clr-accent-dark); display: block; margin-bottom: 6px; }
+.price-box p { color: var(--clr-text); margin: 0; font-size: 15px; }
+.more-links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
+.more-links a { padding: 10px 18px; border: 1px solid var(--clr-border); border-radius: 999px; font-weight: 600; font-size: 14.5px; background: var(--clr-surface); }
+.more-links a:hover { border-color: var(--clr-accent); color: var(--clr-accent); }
+.service__more { display: inline-block; margin-top: 12px; font-weight: 600; font-size: 14px; color: var(--clr-accent); }
+@media (max-width: 900px) { .page-hero h1 { font-size: 30px; } .fact-grid { grid-template-columns: 1fr; } }
+
+/* Placeholders to be replaced before launch, legal pages */
+mark.ph { background: #fff3c4; color: #5c4400; padding: 1px 6px; border-radius: 6px; font-weight: 600; }
+.legal { padding: 8px 0 80px; max-width: 820px; }
+.legal h1 { font-size: 34px; margin: 18px 0 8px; letter-spacing: -0.01em; }
+.legal__date { color: var(--clr-text-soft); font-size: 14px; margin-bottom: 28px; }
+.legal h2 { font-size: 21px; margin: 32px 0 12px; }
+.legal p, .legal li { color: var(--clr-text-soft); font-size: 15.5px; margin-bottom: 10px; }
+.legal ul { padding-left: 22px; list-style: disc; }
+.legal a { color: var(--clr-accent); font-weight: 600; }
