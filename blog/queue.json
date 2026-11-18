@@ -1,7 +1,32 @@
 {
   "site": "https://notjusttraffic.ru",
-  "updated": "2026-11-17",
-  "awaiting": [],
+  "updated": "2026-11-18",
+  "awaiting": [
+    {
+      "slug": "direkt-ili-vk-dlya-mebeli",
+      "path": "articles/direkt-ili-vk-dlya-mebeli.md",
+      "title": "Яндекс Директ или ВКонтакте для мебельной компании: что выбрать и как совместить",
+      "description": "Яндекс Директ или ВКонтакте для мебельной компании: чем отличаются каналы, какие заявки дают и как распределить бюджет. Сравнение и чек-лист.",
+      "reading_time": "10 мин чтения",
+      "preview_url": "https://notjusttraffic.ru/blog/preview/3f32e5704642/direkt-ili-vk-dlya-mebeli/"
+    },
+    {
+      "slug": "otvet-na-zayavku-mebel-skript",
+      "path": "articles/otvet-na-zayavku-mebel-skript.md",
+      "title": "Скрипт ответа на заявку на мебель на заказ: как довести обращение до замера",
+      "description": "Как отвечать на заявки на мебель на заказ: первый ответ, вопросы для квалификации, возражения и запись на замер. Готовая структура разговора и чек-лист.",
+      "reading_time": "11 мин чтения",
+      "preview_url": "https://notjusttraffic.ru/blog/preview/66471a42cdda/otvet-na-zayavku-mebel-skript/"
+    },
+    {
+      "slug": "otzyvy-yandeks-karty-2gis-mebel",
+      "path": "articles/otzyvy-yandeks-karty-2gis-mebel.md",
+      "title": "Отзывы мебельной компании на Яндекс Картах и 2ГИС: как получать их без накрутки",
+      "description": "Как мебельной компании получать реальные отзывы на Яндекс Картах и 2ГИС, отвечать на негатив и поднимать рейтинг без накрутки. Порядок действий и чек-лист.",
+      "reading_time": "10 мин чтения",
+      "preview_url": "https://notjusttraffic.ru/blog/preview/3eb599ead12b/otzyvy-yandeks-karty-2gis-mebel/"
+    }
+  ],
   "scheduled": [],
   "published": [
     {
